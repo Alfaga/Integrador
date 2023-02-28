@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+    <title>REGISTRATE</title>
+</head>
+<body>
+    <header>
+        <section class="header-logo">
+            <img src="./Club Peludo logo.png" alt="Club-Peludo" class="logo">
+        </section>
+    </header>
+    <main>
+        <form>
+            <label for="Nombre Completo">Ingrese su Nombre Completo</label>
+            <input type="text" id="nombre" class="insert_text">
+
+            <label for="Domicilio">Ingrese su Domicilio</label>
+            <input type="text" id="domicilio" class="insert_text">
+
+            <label for="Email">Ingrese su Email</label>
+            <input type="email" id="email" class="insert_text">
+
+            <label for="password">Ingrese su Password</label>
+            <input type="password" id="password" class="insert_text">
+
+            <label for="password">Reingrese su Password</label>
+            <input type="password" id="password" class="insert_text">
+
+            <p>Te gustaria...</p>
+                <div class="checkbox">
+                    <label for="checkbox">Adoptar</label>
+                    <input type="checkbox" id="checkbox">
+
+                    <label for="checkbox">Transitar</label>
+                    <input type="checkbox" id="checkbox">
+
+                    <label for="checkbox">Apadrinar</label>
+                    <input type="checkbox" id="checkbox">
+                </div>
+
+            <p>¿Adoptaste alguna vez?</p>
+                <div>
+                    <label for="radio">Si</label>
+                    <input type="radio" id="radio" name="adoptar" >
+
+                    <label for="radio">No</label>
+                    <input type="radio" id="radio" name="adoptar">
+                </div>
+            <p>¿Cuantas personas habitan en su hogar?
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+
+            <p>¿Hay niños en la casa?</p>
+                <div>
+                    <label for="radio">Si</label>
+                    <input type="radio" id="radio" name="adoptar" >
+
+                    <label for="radio">No</label>
+                    <input type="radio" id="radio" name="adoptar">
+                </div>
+            <p>¿Hay animales en la casa?</p>
+                <div>
+                    <label for="radio">Si</label>
+                    <input type="radio" id="radio" name="adoptar" >
+
+                    <label for="radio">No</label>
+                    <input type="radio" id="radio" name="adoptar">
+                </div>
+            <p>En caso de tener animales, ¿Estan castrados y/o vacunados?¿Cuales son sus edades?</p>
+                <div>
+                    <label for="caja-text"></label>
+                    <textarea id="caja-text" cols="40" rows="8" class="insert_text"></textarea>
+                </div>
+            <div>
+                <input type="submit" value="Enviar" class="button_enviar">
+            </div>
+            <div>
+                <button class="button_enviar"><a href="/index.html">Volver</a></button>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
