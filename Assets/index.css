@@ -22,11 +22,12 @@
 body{
     background-color: var(--background);
     background-image: url(./fondo-main.png);
+    position: absolute;
 }
 header{
     background: var(--secondary);
-    width: 100%;
-    display: flex;
+    /*width: 100%;
+    display: flex;*/
     justify-content: space-between;
     align-items: center;
     height: 75px;
@@ -169,7 +170,7 @@ main{
 }
 
 .categories div a{
-    color: var(--text-main);
+    color: black;
 }
 
 .cards{
@@ -297,6 +298,7 @@ main{
     align-items: center;
     height: 40px;
     gap: 8px;
+    padding: 30px;
  }
 
  .footer__list {
@@ -386,6 +388,8 @@ main{
     .cards_info-button p{
         line-height: normal;
     }
-
-
+    footer{
+        width: 100%;
+    }
  }
+
