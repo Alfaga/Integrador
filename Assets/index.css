@@ -399,11 +399,3 @@ main{
         width: 100%;
     }
  }
-
- @media (max-width:320px){
-
-    body{
-        width: 320px;
-    }
- }
-
