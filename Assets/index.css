@@ -376,7 +376,6 @@ main{
     #hero img{
         display: none;
     }
-
  }
 
  @media (max-width:576px) {
@@ -398,6 +397,13 @@ main{
     }
     footer{
         width: 100%;
+    }
+ }
+
+ @media (max-width:320px){
+
+    body{
+        width: 320px;
     }
  }
 

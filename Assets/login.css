@@ -22,7 +22,6 @@
 body{
     background-color: var(--background);
     background-image: url(./fondo-main.png);
-    position: absolute;
 
 }
 
